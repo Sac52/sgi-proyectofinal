@@ -4,9 +4,10 @@
 Repositorio dedicado al proyecto final en unity-blender para la asignatura Sistemas Gráficos Interactivos.
 
 
+
 **Modelos**
 
-Para el desarrollo del proyecto, se han modelado en **Blender** los siguientes modelos:
+Para el desarrollo del proyecto, se han modelado en **Blender** los siguientes objetos:
                 
 + Escuela Politécnica
 + Linterna
