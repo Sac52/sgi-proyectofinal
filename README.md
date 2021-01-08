@@ -16,3 +16,4 @@ Para el desarrollo del proyecto, se han modelado en **Blender** los siguientes o
 + Cajón
 + Torre de ordenador
 + Tablón de anuncios
++ Máquina expendedora
