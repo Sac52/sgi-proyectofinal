@@ -14,3 +14,5 @@ Para el desarrollo del proyecto, se han modelado en **Blender** los siguientes o
 + Torre de ordenador
 + Puerta de emergencia
 + Cajón
++ Torre de ordenador
++ Tablón de anuncios
