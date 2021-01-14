@@ -18,5 +18,6 @@ public class LoadSceneButton : MonoBehaviour
     public void LoadTargetScene()
     {
         SceneManager.LoadScene(sceneName);
+        Time.timeScale = 1f;
     }
 }

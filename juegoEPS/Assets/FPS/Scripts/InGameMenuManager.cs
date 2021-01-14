@@ -43,8 +43,8 @@ public class InGameMenuManager : MonoBehaviour
         shadowsToggle.isOn = QualitySettings.shadows != ShadowQuality.Disable;
         shadowsToggle.onValueChanged.AddListener(OnShadowsChanged);
 
-        invincibilityToggle.isOn = m_PlayerHealth.invincible;
-        invincibilityToggle.onValueChanged.AddListener(OnInvincibilityChanged);
+        //invincibilityToggle.isOn = m_PlayerHealth.invincible;
+        //invincibilityToggle.onValueChanged.AddListener(OnInvincibilityChanged);
 
         framerateToggle.isOn = m_FramerateCounter.uiText.gameObject.activeSelf;
         framerateToggle.onValueChanged.AddListener(OnFramerateCounterChanged);
@@ -64,7 +64,7 @@ public class InGameMenuManager : MonoBehaviour
             Cursor.visible = true;
         }
 
-        if (Input.GetButtonDown(GameConstants.k_ButtonNamePauseMenu)
+        if (Input.GetKeyDown(KeyCode.Escape)
             || (menuRoot.activeSelf && Input.GetButtonDown(GameConstants.k_ButtonNameCancel)))
         {
             if (controlImage.activeSelf)
@@ -139,4 +139,6 @@ public class InGameMenuManager : MonoBehaviour
     {
         controlImage.SetActive(show);
     }
+
+
 }
